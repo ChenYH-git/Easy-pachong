@@ -28,7 +28,7 @@ type what struct {
 
 func Init() { //数据库初始化
 	usr := "root"
-	key := "chenyuhan123000"
+	key := "**"
 	sbase := "news"
 
 	var err error
