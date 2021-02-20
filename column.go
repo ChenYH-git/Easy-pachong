@@ -24,7 +24,7 @@ var (
 
 func initial() {
 	usr := "root"
-	key := "chenyuhan123000"
+	key := "**"
 	sbase := "news"
 	da,err := sql.Open("mysql",usr+":"+key+"@tcp(localhost:3306)/"+sbase)
 	if err != nil {
