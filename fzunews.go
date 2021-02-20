@@ -29,7 +29,7 @@ var (
 
 func Init() { //数据库初始化
 	usr := "root"
-	key := "chenyuhan123000"
+	key := "**"
 	sbase := "news"
 	db,err := sql.Open("mysql",usr+":"+key+"@tcp(localhost:3306)/"+sbase)
 	if err != nil {
